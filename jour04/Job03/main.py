@@ -4,7 +4,7 @@ def Puissance(x,n) :
     else :
         return x*Puissance(x,n-1)
 
-x = int(input("Veuillez renseigner un nombre"))
-n = int(input("Veuillez renseigner une puissance"))       
+x = int(input("Veuillez renseigner un nombre :"))
+n = int(input("Veuillez renseigner une puissance :"))       
 
 print(Puissance(x,n))
