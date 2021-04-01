@@ -9,12 +9,21 @@ def draw_rectangle(width, height):
     
 
     a = 0
+    d = 0
 
+    print("\n","")
 
-   
 
     while a < height:
-        print("\n","|", "")
+        d = 0
+        while d <= width :
+            if d == 0 :
+                print("|","",end="")
+            elif d == width :
+                print("|\n")
+            else :
+                print(" ","", end="")
+            d = d + 1
         a+=1
 
 
